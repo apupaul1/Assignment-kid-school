@@ -7,6 +7,7 @@
   font-style: normal;
 }
 
+
 /* Shared Styles */
 
 .display-flex {
@@ -29,11 +30,16 @@
     color: #5D58EF;
 }
 
+.color5 {
+    color: skyblue;
+}
+
 /* font weight bold */
 
 .font-weight-bold {
     font-weight: bold;
 }
+
 /* Navbar styles */
 
 .navbar {
@@ -43,7 +49,7 @@
 
 .nav-link {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
@@ -63,15 +69,71 @@
 }
 
 .logo-title {
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 .contact-button {
     background-color: orange;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     padding: 10px 60.5px;
     border: none;
     border-radius: 12px;
 }
+
+.div-1 {
+    display: none;
+}
+
+/* banner styles */
+
+.banner {
+    align-items: center;
+    gap: 50px;
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.banner-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.banner-button {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1.6rem 3rem;
+    background-color: black;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+}
+
+@media screen and (max-width:576px) {
+
+    .contact , .nav-links , .logo-title {
+        display: none;
+    }
+
+    .div-1 {
+        display: inline-block;
+    }
+
+    .navbar {
+        border-bottom: 1px solid orange;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-container {
+        text-align: center;
+    }
+}
+
+
