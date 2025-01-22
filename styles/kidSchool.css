@@ -7,10 +7,6 @@
   font-style: normal;
 }
 
-body {
-    background-color: white;
-}
-
 
 /* Shared Styles */
 
@@ -141,9 +137,7 @@ body {
     border-radius: 12px;
 }
 
-/* .img1 {
-    width: 100%;
-} */
+
 /* Main content */
 main , .stories, .curriculum{
     max-width: 1440px;
@@ -231,7 +225,6 @@ main , .stories, .curriculum{
     background-image: url(/assets/bg.png) , linear-gradient(to top, rgba(254, 163, 1, 0.3) 0%, rgba(255, 255, 255, 1) 100%);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
 }
 
 .stories-title {
@@ -276,7 +269,6 @@ main , .stories, .curriculum{
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    /* border-radius: 20px; */
 }
 
 .story-title {
@@ -383,6 +375,18 @@ footer {
 .li2 {
     font-size: 1.25rem;
     font-weight: 500;
+}
+
+/* Marquee tag */
+
+.mq {
+    position: sticky;
+    background-color: khaki;
+}
+
+.mq> div {
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 @media screen and (max-width:576px) {
