@@ -137,12 +137,12 @@
     border-radius: 12px;
 }
 
+/* Main content */
 
-/* Main content
-main , .stories, .curriculum{
+.curriculum-wrap, .stories-wrap {
     max-width: 1440px;
     margin: 0 auto;
-} */
+}
 
 /* Standard Curriculum styles */
 
@@ -320,10 +320,6 @@ main , .stories, .curriculum{
     border-radius: 10px;
 }
 
-.curriculum-wrap, .stories-wrap {
-    max-width: 1440px;
-    margin: 0 auto;
-}
 
 /* Footer styles */
 
