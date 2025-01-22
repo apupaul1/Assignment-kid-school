@@ -138,11 +138,11 @@
 }
 
 
-/* Main content */
+/* Main content
 main , .stories, .curriculum{
     max-width: 1440px;
     margin: 0 auto;
-}
+} */
 
 /* Standard Curriculum styles */
 
@@ -306,8 +306,8 @@ main , .stories, .curriculum{
 }
 
 .view {
-    margin-top: 80px;
-    margin-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
@@ -318,6 +318,11 @@ main , .stories, .curriculum{
     background-color: black;
     border: none;
     border-radius: 10px;
+}
+
+.curriculum-wrap, .stories-wrap {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* Footer styles */
